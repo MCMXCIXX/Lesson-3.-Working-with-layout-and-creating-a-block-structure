@@ -1,0 +1,95 @@
+@import url(normalize.css);
+@import url(/fonts/style.css);
+
+body {
+	background: rgb(255, 255, 255);
+}
+.container {
+	max-width: 1135px;
+	margin: 0 auto;
+}
+.header {
+	padding: 40px 0 84px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+.logo__text {
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+}
+.logo__text_orange {
+	color: rgb(242, 88, 34);
+}
+.navigation {
+}
+.navigation__list {
+	display: flex;
+	flex-direction: row;
+	gap: 35px;
+	list-style: none;
+	font-family: Gilroy-Medium;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0;
+}
+.navigation__item {
+}
+.navigation-link {
+	text-decoration: none;
+	color: #000;
+}
+.navigation__item-active {
+	color: rgb(242, 88, 34);
+}
+.main-info {
+	background-image: url(../img/pngfind1.jpeg);
+	background-repeat: no-repeat;
+	background-position: 100%;
+}
+.main-info__title {
+	color: rgb(0, 0, 0);
+	font-family: Gilroy-Bold;
+	font-size: 60px;
+	max-width: 522px;
+	margin: 0;
+}
+.main-info__subtitle {
+	color: rgb(136, 136, 136);
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	max-width: 466px;
+}
+.main-info__button-wrapper {
+}
+.main-info__btn {
+	padding: 15px 36px 16px 35px;
+	font-family: Gilroy-Bold;
+	font-size: 15px;
+	color: rgb(170, 170, 170);
+	border: none;
+	cursor: pointer;
+	background: transparent;
+}
+.main-info__btn--orange {
+	border-radius: 50px;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	background: rgb(242, 88, 34);
+	color: rgb(255, 255, 255);
+}
+.footer {
+	padding: 97px 0 96px 0;
+}
+.footer__list {
+	display: flex;
+	list-style: none;
+	gap: 48px;
+	justify-content: space-around;
+}
+.footer__item {
+}
+~
